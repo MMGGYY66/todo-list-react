@@ -2,8 +2,8 @@
 # todo-list-react Project (Module 3 week 2)
 
 <div align="center">
-  <img src="" alt="logo" width="190"  height="auto" />
-  <br/>
+  <!-- <img src="" alt="logo" width="190"  height="auto" />
+  <br/> -->
 
   <h3><b>todo-list-react Project</b></h3>
 
@@ -129,7 +129,7 @@ To run tests, run the following command:
  <code>npm test</code>
 
 ### Deployment
-[todo-list-react](https://mmggyy66.github.io/todo-list-react/)
+[]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +162,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/MMGGYY66/todo-list-react/issues/).
+Feel free to check the [issues page](https://github.com/MMGGYY66/todo-list-react/issues/2).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,7 +184,7 @@ I would like to thank Microverse for giving me the chance to improve my coding.
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ <a name="faq"></a>
 - **What is this for?**
 
   - This is a react.js project to practice working with react.js.
@@ -199,7 +199,6 @@ I would like to thank Microverse for giving me the chance to improve my coding.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/MMGGYY66/todo-list-react/blob/dev/MIT.md)
-
+This project is [MIT](https://github.com/MMGGYY66/todo-list-react/blob/react-app/MIT.md)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
