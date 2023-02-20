@@ -1,10 +1,10 @@
 import React from 'react';
 
-const TodoApp = () => (
-  <div>
-    <h1>Hello world!</h1>
-    <p>I am in a React Component!</p>
-  </div>
-);
+import Header from 'components/Header';
 
+const TodoApp = () => (
+  <>
+    <Header />
+  </>
+);
 export default TodoApp;
