@@ -40,6 +40,7 @@ const TodoItem = ({
           type="checkbox"
           checked={itemProp.completed}
           onChange={() => handleChange(itemProp.id)}
+          className="checkbox"
         />
         <button
           type="button"
