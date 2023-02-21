@@ -3,9 +3,11 @@ import Header from 'components/Header';
 import TodosLogic from 'components/TodosLogic';
 
 const TodoApp = () => (
-  <>
-    <Header />
-    <TodosLogic />
-  </>
+  <div className="container">
+    <div className="todos">
+      <Header />
+      <TodosLogic />
+    </div>
+  </div>
 );
 export default TodoApp;

@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 const InputTodo = ({ addTodoItem }) => {
   const [title, setTitle] = useState('');
-  const success = document.querySelector('.success');
-  const warn = document.querySelector('.warn');
+
+  const [message, setMessage] = useState('');
 
   const handleChange = (e) => {
     setTitle(e.target.value);
@@ -13,26 +13,32 @@ const InputTodo = ({ addTodoItem }) => {
     e.preventDefault();
     if (title.trim()) {
       addTodoItem(title);
-      success.style.display = 'block';
-      success.innerHTML = 'todo added to the list successfully.';
       setTitle('');
-      warn.style.display = 'none';
+      setMessage('todo added to the list successfully.');
     } else {
-      warn.style.display = 'block';
-      warn.innerHTML = 'Inserting empty todo is not allowed. Please add item';
-      success.style.display = 'none';
+      setMessage('Inserting empty todo is not allowed. Please add item');
     }
   };
   return (
-    <form onSubmit={handleSubmit}>
-      <input
-        type="text"
-        placeholder="Add Todo..."
-        value={title}
-        onChange={handleChange}
-      />
-      <button type="submit">Submit</button>
-    </form>
+    <>
+      <form onSubmit={handleSubmit} className="form-container">
+        {' '}
+        <input
+          type="text"
+          placeholder="Add Todo..."
+          value={title}
+          onChange={handleChange}
+          className="input-text"
+        />
+        <button
+          type="submit"
+          className="input-submit"
+        >
+          Submit
+        </button>
+      </form>
+      <span className="warn">{message}</span>
+    </>
   );
 };
 
